@@ -1,0 +1,27 @@
+{
+  "name": "unit-testing-github",
+  "version": "0.0.1",
+  "description": "A demonstration of using Nock and Mocha together with Chai.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec test/*.js"
+  },
+  "author": "dear student<you@ncsu.edu>",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^2.5.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0",
+    "nock": "^9.0.17",
+    "orchestrate": "^0.8.2",
+    "underscore": "^1.6.0"
+  },
+  "dependencies": {
+    "base64url": "^2.0.0",
+    "bluebird": "^3.4.6",
+    "googleapis": "^22.2.0",
+    "opn": "^5.1.0",
+    "request": "^2.75.0",
+    "underscore": "^1.8.3"
+  }
+}
